@@ -6,6 +6,7 @@ const Slider = () => <div className="slider">
          <span>&ndash;</span><input type="range" id="slider" name="slider" min="0" max="10" step="1" onChange={showValue}/><span>+</span>
 </div>
 
+
 function showValue() {
     var input = document.getElementById("slider");
     var output = document.getElementById("result");
@@ -13,6 +14,12 @@ function showValue() {
 
     input.oninput = function() {
         output.innerHTML = this.value;
+        
+
+    // Show + after value when value = 10
+        if(this.value == 10){
+            output.innerHTML = this.value + "+";
+        }
     }
 }
 
