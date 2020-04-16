@@ -1,5 +1,5 @@
 import React from 'react';
-import Slider from '../comps/slider/slider.js';
+import Slider from '../comps/slider';
 
 export const slider = () => <Slider/>;
 
