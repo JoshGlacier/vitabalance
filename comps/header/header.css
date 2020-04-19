@@ -1,0 +1,13 @@
+.header_box {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #043A5B;
+    border-radius: 10px;
+    height: 30px;
+    width: 90%;
+}
+
+.image {
+
+}
