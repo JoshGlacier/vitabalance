@@ -14,7 +14,7 @@ function ButtonClick() {
 
 CustomButton.defaultProps = {
     text:"Let's Go!",
-    color:"#000080",
+    color:"#043A5B",
     onClick:ButtonClick()
 }
 
