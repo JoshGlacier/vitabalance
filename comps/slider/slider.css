@@ -2,7 +2,9 @@
 
 .slider {
   font-family: 'Oswald', sans-serif;
-  width: 50%;
+  width: 90%;
+  position: relative;
+  left: 2.5%;
 }
 
 span {

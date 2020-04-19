@@ -7,13 +7,23 @@
     cursor: pointer;
     box-shadow: 1px 1px 5px #000;
     margin: 5px;
-    width: 3em;
+    width: 90%;
+    font-size: 3em;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 2em;
+
 }
 .custom_button_box:hover {
-    background-color: #999;
+    
+    color: yellowgreen;
 }
 
 .custom_button_box_inner::selection {
 background:none;
 color:none;
+}
+
+.custom_button_box_inner {
+    position: relative;
+    left: 45%;
 }

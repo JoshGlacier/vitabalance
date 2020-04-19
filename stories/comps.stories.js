@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../comps/header';
 import Slider from '../comps/slider';
-import CustomButton from '../comps/button/button';
+import CustomButton from '../comps/button';
 import Card from '../comps/card';
 
 

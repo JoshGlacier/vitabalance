@@ -15,7 +15,7 @@ import Work3 from './Images/Work_3.svg';
 
 const Card = () => <div>
  <Header />
-<img src = {Sleep1}></img>
+<img class = "images" src = {Sleep1}></img>
 <Slider />
 <CustomButton />
 </div>
