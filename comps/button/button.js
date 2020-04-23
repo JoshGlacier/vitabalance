@@ -8,14 +8,11 @@ const CustomButton = ({text, color, onClick}) => <div style={{backgroundColor:co
     </div>
 </div>
 
-function ButtonClick() {
-    //Go to next Page
-}
 
 CustomButton.defaultProps = {
     text:"Let's Go!",
     color:"#000080",
-    onClick:ButtonClick()
+    onClick:ClickIndex()
 }
 
 

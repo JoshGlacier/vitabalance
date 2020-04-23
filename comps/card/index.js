@@ -17,7 +17,6 @@ const Card = () => <div>
  <Header />
 <img class = "images" src = {Sleep1}></img>
 <Slider />
-<CustomButton />
 </div>
 
 
