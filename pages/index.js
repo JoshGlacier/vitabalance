@@ -1,18 +1,24 @@
-import Link from 'next/link';
-import Router from 'next/router';
-import './app.css';
+import React from 'react'
+import MyCard from "../comps/card"
+import CustomButton from "../comps/button"
+import Header from "../comps/header"
+import Slider from "../comps/slider"
+import Card from "../comps/card"
+import Router from "next/router";
 
 function ClickIndex(){
-    document.querySelector("#main_app").style.right = "-100%";
-    setTimeout(function() {
-        Router.push("/sleep");
-    }, 1000)
-    }
+    Router.push("/sleep");
+}
 
-
-const Index = () => <div id="main_app">
-    <div onClick={ClickIndex}>Index</div>
-
+const SocialPage = ({}) => { 
+    return <div className="custom">
+        
+<Card></Card>
+<div onClick={ClickIndex} page = "/work">
+<CustomButton OnClick = {ClickIndex}></CustomButton>
 </div>
+</div>
+}
 
-export default Index;
+ 
+export default SocialPage;
