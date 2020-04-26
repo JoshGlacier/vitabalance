@@ -17,8 +17,8 @@ const HomePage = ({}) => {
         
         <Header />
         
-<div onClick={ClickIndex} text = "Get Started" page = "/work">
-<CustomButton OnClick = {ClickIndex}></CustomButton>
+<div onClick={ClickIndex}  page = "/work">
+<CustomButton OnClick = {ClickIndex} text = "Get Started"></CustomButton>
 </div>
 </div>
 }
