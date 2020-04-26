@@ -8,20 +8,19 @@ import Router from "next/router";
 import Social1 from '../../comps/card/Images/Social _01.svg';
 
 function ClickIndex(){
-    Router.push("/work");
+    Router.push("/Home");
 }
 
-const SocialPage = ({}) => { 
+const SocialInfo = ({}) => { 
     return <div className="custom">
-        
-        <Header />
+ <Header />
 <img class = "images" src = {Social1}></img>
 <Slider />
 <div onClick={ClickIndex} page = "/work">
-<CustomButton OnClick = {ClickIndex}></CustomButton>
+<CustomButton OnClick = {ClickIndex} text = "Return to Homescreen"></CustomButton>
 </div>
 </div>
 }
 
  
-export default SocialPage;
+export default SocialInfo;

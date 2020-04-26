@@ -6,19 +6,22 @@ import Slider from "../comps/slider"
 import Card from "../comps/card"
 import Router from "next/router";
 
+
 function ClickIndex(){
     Router.push("/sleep");
 }
 
-const SocialPage = ({}) => { 
+
+const HomePage = ({}) => { 
     return <div className="custom">
         
-<Card></Card>
-<div onClick={ClickIndex} page = "/work">
+        <Header />
+        
+<div onClick={ClickIndex} text = "Get Started" page = "/work">
 <CustomButton OnClick = {ClickIndex}></CustomButton>
 </div>
 </div>
 }
 
  
-export default SocialPage;
+export default HomePage;
