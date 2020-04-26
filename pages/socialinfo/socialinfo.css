@@ -15,10 +15,13 @@ width: 20em;
 }
 
 .imagesocial {
-    width: 30em;
+    width: 40%;
 
 }
 
 .customdiv {
     display: flex;
+}
+.custom {
+    text-align: center;
 }
