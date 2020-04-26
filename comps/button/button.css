@@ -11,6 +11,8 @@
     font-size: 3em;
     font-family: 'Oswald', sans-serif;
     margin-top: 2em;
+    border: 1px solid 
+   
 
 }
 .custom_button_box:hover {
@@ -24,6 +26,10 @@ color:none;
 }
 
 .custom_button_box_inner {
-    position: relative;
-    left: 45%;
+
+}
+
+.text-align {
+    width: 100%;
+    text-align: center;
 }
