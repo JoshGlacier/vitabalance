@@ -1,10 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
 
 .infoheader {
+    font-size: 100%;
     font-size: 3em;
+    font-weight: bold;
     font-family: 'Oswald', sans-serif;
     text-align: center;
-    width: 10em;
+    width: 100%;
+
+    
 }
 
 .GeneralInfo {
@@ -23,5 +27,5 @@ width: 20em;
     display: flex;
 }
 .custom {
-    text-align: center;
+    align-items: center;
 }

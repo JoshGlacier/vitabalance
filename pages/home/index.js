@@ -25,21 +25,17 @@ FOLDER
 function ClickIndex(){
     Router.push("/sleep");
 }
- 
-
 
 const HomePage = ({}) => { 
     return <div className="custom">
         
-<Card></Card>
-<div onClick={ClickIndex} page = "/social">
-<CustomButton page = "/social" OnClick = {ClickIndex}></CustomButton>
+        <Header />
+        
+<div onClick={ClickIndex}  page = "/work">
+<CustomButton OnClick = {ClickIndex} text = "Get Started"></CustomButton>
 </div>
 </div>
 }
 
-
-
-
-
+ 
 export default HomePage;
