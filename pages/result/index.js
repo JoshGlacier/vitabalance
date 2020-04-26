@@ -6,6 +6,10 @@ import Slider from "../../comps/slider"
 import Card from "../../comps/card"
 
 const ResultPage = ({}) => { 
-<Card></Card>
+    return <div className="">
+    <Header />
+    <img class = "images" src = {Sleep1}></img>
+    <Slider />
+    </div>
 }
 export default ResultPage;
