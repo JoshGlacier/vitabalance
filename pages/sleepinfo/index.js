@@ -51,7 +51,7 @@ const SleepInfo = ({}) => {
 
 <dl className ="GeneralInfo">
     <dt>Set your bedroom temperature</dt>
-        <dd>Test different temperatures to find out which is most comfortable for you. Around 70°F (20°C) is best for most people.</dd>
+        <dd>Test different temperatures to find out which is most comfortable for you. Around 20°C (70°F) is best for most people.</dd>
     <dt>Don’t eat late in the evening</dt>
         <dd>Consuming a large meal before bed can lead to poor sleep and hormone disruption. However, certain meals and snacks a few hours before bed may help.</dd>
     <dt>Relax and clear your mind in the evening</dt>
