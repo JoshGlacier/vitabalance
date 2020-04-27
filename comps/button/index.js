@@ -1,6 +1,6 @@
 import React from 'react';
 import './button.css';
-import { Router } from 'next/router';
+import Router from "next/router";
 //Made the UI
 const CustomButton = ({text, color, onClick, ClickFunction}) => <div style={{backgroundColor:color,boxShadow:"1px 1px 5px"+color}}className = "custom_button_box" onClick={onClick} ClickFunction={ClickFunction}>
     <div className = "custom_button_box_inner">
@@ -9,8 +9,8 @@ const CustomButton = ({text, color, onClick, ClickFunction}) => <div style={{bac
     </div>
 </div>
 
-function ClickIndex(page){
-    Router.push(page)
+function ClickIndex(){
+   
 }
 
 CustomButton.defaultProps = {

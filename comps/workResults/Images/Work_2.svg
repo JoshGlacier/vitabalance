@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 612 612" style="enable-background:new 0 0 612 612;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#EAF4F4;}
+	.st1{fill:#D8DCDD;}
+	.st2{fill:#C2C5C6;}
+	.st3{fill:#FFFDFE;}
+	.st4{fill:none;stroke:#C1C5C6;stroke-miterlimit:10;}
+	.st5{fill:none;stroke:#A7A8A8;stroke-miterlimit:10;}
+	.st6{fill:#E5AB68;}
+	.st7{fill:#DC9853;}
+	.st8{fill:#E9BC89;}
+	.st9{fill:#E2B07E;}
+</style>
+<g id="Layer_1">
+	<path class="st0" d="M554.01,567.42H54.83c-6.6,0-12-5.4-12-12V56.23c0-6.6,5.4-12,12-12h499.19c6.6,0,12,5.4,12,12v499.19
+		C566.01,562.02,560.61,567.42,554.01,567.42z"/>
+</g>
+<g id="Layer_3">
+	<rect x="161.6" y="245.46" class="st1" width="177.99" height="125.25"/>
+	<rect x="339.59" y="245.46" class="st2" width="89.45" height="125.25"/>
+	<path class="st3" d="M163.43,326.37h176.82c0,0,5.04,5.69,7.12,10.79c2.08,5.09,2.97,16.18,2.97,16.18L163.43,326.37z"/>
+	<path class="st3" d="M161.6,277.83c0,0-4.94-0.45-8.99,0c-4.05,0.45-11.99,4.05-11.99,4.05l20.98,4.64V277.83z"/>
+	<line class="st4" x1="191.71" y1="260.75" x2="247.75" y2="260.75"/>
+	<line class="st4" x1="163.43" y1="302.7" x2="219.47" y2="302.7"/>
+	<line class="st4" x1="300.49" y1="275.13" x2="343.82" y2="275.13"/>
+	<line class="st5" x1="343.82" y1="318.58" x2="387.16" y2="318.58"/>
+	<rect x="202.95" y="120.21" class="st1" width="177.99" height="125.25"/>
+	<rect x="380.94" y="120.21" class="st2" width="89.45" height="125.25"/>
+	<path class="st3" d="M274.34,156.82h106.74c0,0,3.04,5.69,4.3,10.79c1.25,5.09,1.79,16.18,1.79,16.18L274.34,156.82z"/>
+	<path class="st3" d="M287.82,193.64h-84.64c0,0-2.41,4.18-3.41,7.92c-0.99,3.74-1.42,11.88-1.42,11.88L287.82,193.64z"/>
+	<path class="st3" d="M202.95,135.69c0,0-3.16-0.45-5.74,0s-7.66,4.05-7.66,4.05l13.4,4.64V135.69z"/>
+	<line class="st4" x1="233.07" y1="135.49" x2="289.1" y2="135.49"/>
+	<line class="st4" x1="204.79" y1="177.44" x2="260.82" y2="177.44"/>
+	<line class="st4" x1="287.6" y1="223.29" x2="385.18" y2="223.29"/>
+	<line class="st5" x1="381.09" y1="206.65" x2="448.28" y2="206.65"/>
+	<line class="st5" x1="381.09" y1="142.99" x2="420.7" y2="142.99"/>
+	<path class="st3" d="M470.39,120.21H362.22c0,0,60.38-4.05,68.02-6.29c7.64-2.25,23.37-11.99,23.37-11.99L470.39,120.21z"/>
+</g>
+<g id="Layer_2">
+	<rect x="138.68" y="365.03" class="st6" width="249.01" height="152.82"/>
+	<rect x="387.69" y="365.03" class="st7" width="82.7" height="152.82"/>
+	<polygon class="st8" points="138.96,365.03 387.69,365.03 360.25,427.05 108.78,427.05 	"/>
+	<polygon class="st9" points="387.69,365.03 471.29,365.03 500.06,424.36 417.35,424.36 	"/>
+</g>
+</svg>

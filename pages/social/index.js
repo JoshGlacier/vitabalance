@@ -4,8 +4,24 @@ import CustomButton from "../../comps/button"
 import Header from "../../comps/header"
 import Slider from "../../comps/slider"
 import Card from "../../comps/card"
+import Router from "next/router";
+import Social1 from '../../comps/card/Images/Social _01.svg';
+
+function ClickIndex(){
+    Router.push("/work");
+}
 
 const SocialPage = ({}) => { 
-<Card></Card>
+    return <div className="custom">
+        
+        <Header />
+<img class = "images" src = {Social1}></img>
+<Slider />
+<div onClick={ClickIndex} page = "/work">
+<CustomButton OnClick = {ClickIndex}></CustomButton>
+</div>
+</div>
 }
+
+ 
 export default SocialPage;
