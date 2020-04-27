@@ -39,5 +39,4 @@ const WorkInfo = ({}) => {
 </div>
 }
 
- 
 export default WorkInfo;
