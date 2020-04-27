@@ -6,7 +6,6 @@ import Slider from "../../comps/slider"
 import Card from "../../comps/card"
 
 const ResultPage = ({}) => { 
-<<<<<<< HEAD
     return <div className="page">
         <Header />
         <div className="mainCard">
@@ -19,12 +18,6 @@ const ResultPage = ({}) => {
         <Card></Card>
         <Button />
         </div>
-=======
-    return <div className="">
-    <Header />
-  
-    <Slider />
->>>>>>> cd1e518aaeb878fa8ab7564a056ff5118597507f
     </div>
 }
 export default ResultPage;
