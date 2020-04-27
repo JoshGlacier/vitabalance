@@ -3,3 +3,15 @@
 
     
 }
+
+#sleep1 {
+    display: none;
+}
+
+#sleep2 {
+    display: block;
+}
+
+#sleep3 {
+    display: none;
+}
