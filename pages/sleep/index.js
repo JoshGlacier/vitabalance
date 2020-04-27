@@ -28,9 +28,13 @@ function ClickIndex(){
 const SleepPage = ({}) => { 
     return <div className="custom">
     <Header />
+    <p class="question">How many hours of sleep did you get last night?</p>
+    <div className="imgContainer"><center>
         <img className="images" src={Sleep1} id="sleep1"></img>
         <img className="images" src={Sleep2} id="sleep2"></img>
         <img className="images" src={Sleep3} id="sleep3"></img>
+        </center>
+        </div>
 
 <Slider onChange={sleepResult}/>
 
