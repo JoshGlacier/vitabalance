@@ -1,0 +1,29 @@
+.images {
+    width: 50%;
+}
+
+.imgContainer {
+   width: 100%;
+}
+
+.question {
+    font-size: 100%;
+    font-size: 3em;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    width: 100%;
+    color: #043A5B;
+}
+
+#sleep1 {
+    display: none;
+}
+
+#sleep2 {
+    display: block;
+}
+
+#sleep3 {
+    display: none;
+}
