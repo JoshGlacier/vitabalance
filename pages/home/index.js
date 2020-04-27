@@ -30,7 +30,7 @@ const HomePage = ({}) => {
     return <div className="custom">
         
         <Header />
-        
+        <video src = {require("../../Vitabalance.mp4")} controls/> 
 <div onClick={ClickIndex}  page = "/work">
 <CustomButton OnClick = {ClickIndex} text = "Get Started"></CustomButton>
 </div>

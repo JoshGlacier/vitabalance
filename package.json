@@ -25,6 +25,7 @@
     "@zeit/next-css": "^1.0.1",
     "next": "^9.3.5",
     "next-images": "^1.4.0",
+    "next-videos": "^1.1.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-player": "^2.0.0",
