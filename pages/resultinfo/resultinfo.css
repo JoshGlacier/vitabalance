@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+
+.infoheader {
+    font-size: 100%;
+    font-size: 3em;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    width: 100%;
+
+    
+}
+
+.HeadlineText {
+font-size: 2em;
+font-family: 'Oswald', sans-serif;
+text-align: center;
+font-weight: bold;
+
+}
+
+.imagesocial {
+    width: 40%;
+
+}
+
+.customdiv {
+    display: flex;
+}
+.custom {
+    align-items: center;
+}
+
+.sleepbox {
+    display: flex;
+    border: 1px solid black;
+    width: 90%;
+}
+
+.imagediv {
+    border: 1px solid black;
+    width: 90%;
+}
+
+.sleepimage {
+    width: 45vw;
+    height: 45vh;
+}
+
+.InfoTextDiv {
+    border: 1px solid black;
+    width: 90%;
+}

@@ -8,7 +8,7 @@ import Card from "../../comps/card"
 const ResultPage = ({}) => { 
     return <div className="">
     <Header />
-    <img class = "images" src = {Sleep1}></img>
+  
     <Slider />
     </div>
 }
