@@ -11,11 +11,12 @@
     
 }
 
-.GeneralInfo {
-font-size: 1.5em;
+.HeadlineText {
+font-size: 2em;
 font-family: 'Oswald', sans-serif;
 text-align: center;
-width: 20em;
+font-weight: bold;
+
 }
 
 .imagesocial {
@@ -28,4 +29,25 @@ width: 20em;
 }
 .custom {
     align-items: center;
+}
+
+.sleepbox {
+    display: flex;
+    border: 1px solid black;
+    width: 90%;
+}
+
+.imagediv {
+    border: 1px solid black;
+    width: 90%;
+}
+
+.sleepimage {
+    width: 45vw;
+    height: 45vh;
+}
+
+.InfoTextDiv {
+    border: 1px solid black;
+    width: 90%;
 }

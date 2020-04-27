@@ -32,12 +32,11 @@ const WorkInfo = ({}) => {
         7. Figure out your 2 peak hours.
         <br></br>
         8. Pick one task and then do it.
-        <p/>
+        </p>
 <div onClick={ClickIndex} page = "/sleep">
 <CustomButton OnClick = {ClickIndex} text = "Return to Homescreen"></CustomButton>
 </div>
 </div>
 }
 
- 
 export default WorkInfo;

@@ -13,13 +13,33 @@ import Work1 from './Images/Work_1.svg';
 import Work2 from './Images/Work_2.svg';
 import Work3 from './Images/Work_3.svg';
 
+import showValue from '../slider';
+
 const Card = () => <div>
  <Header />
-<img class = "images" src = {Sleep1}></img>
-<Slider />
+<img className="images" src={Sleep1} id="sleep1"></img>
+<img className="images" src={Sleep2} id="sleep2"></img>
+<img className="images" src={Sleep3} id="sleep3"></img>
+<Slider onChange={sleepResult}/>
 </div>
 
 
+function sleepResult() {
+    console.log(showValue.output);
+   if(Slider.value <= 3){
+       document.querySelector("#sleep1").style = 'display: none';
+       document.querySelector("#sleep2").style = 'display: none';
+       document.querySelector("#sleep3").style = 'display: block';
+    } else if (Slider >= 4 || Slider <= 6){
+       document.querySelector("#sleep1").style = 'display: none';
+       document.querySelector("#sleep2").style = 'display: block';
+       document.querySelector("#sleep3").style = 'display: none';
+    } else if (Slider >= 7){
+       document.querySelector("#sleep1").style = 'display: block';
+       document.querySelector("#sleep2").style = 'display: none';
+       document.querySelector("#sleep3").style = 'display: none';
+    }
+}
 
 export default Card;
 
