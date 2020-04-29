@@ -11,7 +11,7 @@ import Sleep2 from '../../comps/card/Images/Sleep_2.svg';
 import Sleep3 from '../../comps/card/Images/Sleep_3.svg';
 import './sleep.css'
 
-import {data, changeData} from "../data.js";
+import {data, changeData} from "../../comps/data.js";
 console.log(data);
 
 

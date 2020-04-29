@@ -7,7 +7,7 @@ import Card from "../../comps/card"
 import './result.css'
 import Router from "next/router";
 
-import {data, changeData} from "../data.js";
+import {data, changeData} from "../../comps/data.js";
 console.log(data);
 
 
