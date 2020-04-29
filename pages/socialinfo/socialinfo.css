@@ -28,4 +28,6 @@ width: 20em;
 }
 .custom {
     align-items: center;
-}
+        width: 100%;
+    }
+
