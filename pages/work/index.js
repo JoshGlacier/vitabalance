@@ -9,8 +9,18 @@ import Work1 from '../../comps/card/Images/Work_1.svg';
 import Work2 from '../../comps/card/Images/Work_2.svg';
 import Work3 from '../../comps/card/Images/Work_3.svg';
 
+import {data, changeData} from "../data.js";
+console.log(data);
+
+
 function ClickIndex(){
     Router.push("/result");
+    changeData({
+        sleep:data.sleep,
+        social:data.social,
+        work:parseInt(document.querySelector("#slider").value)
+    })
+    console.log("work", data);
 }
 
 const WorkPage = ({}) => { 

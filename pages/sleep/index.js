@@ -11,6 +11,9 @@ import Sleep2 from '../../comps/card/Images/Sleep_2.svg';
 import Sleep3 from '../../comps/card/Images/Sleep_3.svg';
 import './sleep.css'
 
+import {data, changeData} from "../data.js";
+console.log(data);
+
 
 /*function ClickIndex(){
     document.querySelector(".custom").style.right = "-100%";
@@ -22,6 +25,12 @@ import './sleep.css'
 
 function ClickIndex(){
     Router.push("/social");
+    changeData({
+        sleep:parseInt(document.querySelector("#slider").value),
+        social:data.social,
+        work:data.work
+    })
+    console.log("sleep", data);
 }
 
 
@@ -60,9 +69,6 @@ function sleepResult() {
        document.querySelector("#sleep3").style = 'display: none';
      }
 }
-
-// Do we need 3 variabes? One for each page to calculate at the end?
-// New tutorial shows how to save data - Watch
 
 
 export default SleepPage;

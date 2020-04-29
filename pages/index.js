@@ -6,6 +6,8 @@ import Slider from "../comps/slider"
 import Card from "../comps/card"
 import Router from "next/router";
 
+import {data, changeData} from "./data";
+console.log(data);
 
 function ClickIndex(){
     Router.push("/sleep");
