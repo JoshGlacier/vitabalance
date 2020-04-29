@@ -8,7 +8,7 @@ import Router from "next/router";
 import Work1 from '../../comps/card/Images/Work_1.svg';
 import './workinfo.css'
 
-function ClickIndex(){
+function ClickIndexWork(){
     Router.push("/home");
 }
 
@@ -33,8 +33,8 @@ const WorkInfo = ({}) => {
         <br></br>
         8. Pick one task and then do it.
         </p>
-<div onClick={ClickIndex} page = "/sleep">
-<CustomButton OnClick = {ClickIndex} text = "Return to Homescreen"></CustomButton>
+<div onClick={ClickIndexWork} page = "/sleep">
+<CustomButton OnClick = {ClickIndexWork} text = "Return to Homescreen"></CustomButton>
 </div>
 </div>
 }

@@ -10,7 +10,7 @@ import './socialinfo.css'
 
 
 
-function ClickIndex(){
+function ClickIndexSocial(){
     Router.push("/home");
 }
 
@@ -30,8 +30,8 @@ While there are surely more ways to socialize, the bases for all of those method
 
 
 </div>
-<div onClick={ClickIndex} page = "/work">
-<CustomButton OnClick = {ClickIndex} text = "Return to Homescreen"></CustomButton>
+<div onClick={ClickIndexSocial} page = "/work">
+<CustomButton OnClick = {ClickIndexSocial} text = "Return to Homescreen"></CustomButton>
 </div>
 </div>
 }
