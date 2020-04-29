@@ -9,7 +9,7 @@
     "build-storybook": "build-storybook",
     "dev": "next",
     "build": "next build",
-    "start": "next start-p $PORT"
+    "start": "next start -p $PORT"
   },
   "repository": {
     "type": "git",
@@ -30,7 +30,8 @@
     "react-dom": "^16.13.1",
     "react-player": "^2.0.0",
     "reactstrap": "^8.4.1",
-    "video-react": "^0.14.1"
+    "video-react": "^0.14.1",
+    "webpack": "^4.43.0"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
