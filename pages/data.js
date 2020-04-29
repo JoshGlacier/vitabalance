@@ -8,3 +8,9 @@ export var data = {
 export function changeData(d){
     data = d;
 }
+
+const DataPage = () => {
+    
+}
+
+export default DataPage;
