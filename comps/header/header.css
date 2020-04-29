@@ -4,11 +4,16 @@
     justify-content: center;
     background-color: #043A5B;
     border-radius: 10px;
-    height: 90px;
-    width: 90%;
+    height: 100px;
+    width: 100%;
     box-shadow: lightgrey 8px 8px 6px;
 }
 
 .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    object-fit: none;
 
 }

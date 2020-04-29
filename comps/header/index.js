@@ -5,7 +5,7 @@ import './header.css';
 const Asset_3 = require('./Asset_3.png');
 
 const Header = () => <div className="header_box">
-    <img src={Asset_3} width={"100%"} height={"100%"} />
+    <img className="image" src={Asset_3} width={"100%"} height={"100%"} />
 </div>
 
 
