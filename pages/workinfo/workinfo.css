@@ -5,6 +5,13 @@
     width: 10em;
 }
 
+.custom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .GeneralInfo {
 font-size: 1.5em;
 font-family: 'Oswald', sans-serif;
