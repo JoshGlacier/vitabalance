@@ -7,8 +7,7 @@
 }
 
 .custom_button_box {
-    position: relative;
-    left: 30%;
+
     border-radius: 5px;
     padding:10px;
     font-weight: bolder;
@@ -16,7 +15,7 @@
     cursor: pointer;
     box-shadow: 1px 1px 5px #000;
     margin: 5px;
-    width: 40%;
+    width: 100%;
     font-size: 3em;
     font-family: 'Oswald', sans-serif;
     margin-top: 2em;

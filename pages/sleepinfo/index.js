@@ -12,8 +12,8 @@ import './sleepinfo.css'
 
 
 
-function ClickIndex(){
-    Router.push("/Home");
+function ClickIndexSleep(){
+    Router.push("/home");
 }
 
 const SleepInfo = ({}) => { 
@@ -71,7 +71,7 @@ const SleepInfo = ({}) => {
 
 </div>
 <div page = "/work">
-<CustomButton OnClick = {ClickIndex} text = "Return to Homescreen"></CustomButton>
+<CustomButton OnClick = {ClickIndexSleep} text = "Return to Homescreen"></CustomButton>
 </div>
 </div>
 }
