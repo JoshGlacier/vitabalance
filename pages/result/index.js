@@ -5,6 +5,7 @@ import Header from "../../comps/header"
 import Slider from "../../comps/slider"
 import Card from "../../comps/card"
 import './result.css'
+import Router from "next/router";
 
 import {data, changeData} from "../data.js";
 console.log(data);
@@ -23,7 +24,7 @@ const ResultPage = () => {
         descriptiontext = "";
     }  else {
         resulttext = "Oh No! Your life is not balanced!"
-        descriptiontext = "WHY? You're not getting enough sleep because you might be spending too much time working or socially"
+        descriptiontext = "WHY? You're not getting enough sleep because you might be spending too much time working or socializing!"
     }
 
     // if(data.social === 4){
@@ -34,6 +35,15 @@ const ResultPage = () => {
     //     resulttext = "result is 8"
     // } 
 
+    function ClickIndexInfo(){
+        Router.push("/resultinfo");
+    }
+
+    function ClickIndexHome(){
+        Router.push("/home");
+    }
+    
+
 
     return <div className="page">
         <Header />
@@ -43,10 +53,10 @@ const ResultPage = () => {
             <br/><br/> <br/><br/>
             <div className="info">
                 <p>Click the INFO button for information to help keep and balance your life!</p>
-            <CustomButton className="infoButton"/>
+            <CustomButton text = "Info" className="infoButton" onClick = {ClickIndexInfo}/>
             </div>
         {/* <Card></Card> */}
-        <CustomButton />
+        <CustomButton text = "Return to Home" onClick = {ClickIndexHome}/>
         </div>
     </div>
 
