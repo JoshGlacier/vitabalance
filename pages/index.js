@@ -5,7 +5,7 @@ import Header from "../comps/header"
 import Slider from "../comps/slider"
 import Card from "../comps/card"
 import Router from "next/router";
-import "app.css"
+import "./app.css"
 
 import {data, changeData} from "./data";
 console.log(data);
