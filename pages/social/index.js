@@ -8,6 +8,7 @@ import Router from "next/router";
 import Social1 from '../../comps/card/Images/Social _01.svg';
 import Social2 from '../../comps/card/Images/Social _02.svg';
 import Social3 from '../../comps/card/Images/Social _03.svg';
+import './social.css'
 
 import {data, changeData} from "../../comps/data.js";
 console.log(data);

@@ -8,6 +8,7 @@ import Router from "next/router";
 import Work1 from '../../comps/card/Images/Work_1.svg';
 import Work2 from '../../comps/card/Images/Work_2.svg';
 import Work3 from '../../comps/card/Images/Work_3.svg';
+import './work.css'
 
 import {data, changeData} from "../../comps/data.js";
 console.log(data);
