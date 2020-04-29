@@ -7,7 +7,7 @@ import Card from "../comps/card"
 import Router from "next/router";
 import "./app.css"
 
-import {data, changeData} from "./data";
+import {data, changeData} from "../comps/data.js";
 console.log(data);
 
 function ClickIndex(){
