@@ -11,7 +11,7 @@ import './socialinfo.css'
 
 
 function ClickIndex(){
-    Router.push("/Home");
+    Router.push("/home");
 }
 
 const SocialInfo = ({}) => { 

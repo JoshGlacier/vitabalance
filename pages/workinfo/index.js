@@ -9,7 +9,7 @@ import Work1 from '../../comps/card/Images/Work_1.svg';
 import './workinfo.css'
 
 function ClickIndex(){
-    Router.push("/Home");
+    Router.push("/home");
 }
 
 const WorkInfo = ({}) => { 
