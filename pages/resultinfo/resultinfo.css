@@ -33,12 +33,12 @@ font-weight: bold;
 
 .sleepbox {
     display: flex;
-    border: 1px solid black;
+   
     width: 100%;
 }
 
 .imagediv {
-    border: 1px solid black;
+   
     width: 90%;
 }
 
@@ -48,6 +48,6 @@ font-weight: bold;
 }
 
 .InfoTextDiv {
-    border: 1px solid black;
+   
     width: 90%;
 }
