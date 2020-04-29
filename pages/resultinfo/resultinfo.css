@@ -34,7 +34,7 @@ font-weight: bold;
 .sleepbox {
     display: flex;
     border: 1px solid black;
-    width: 90%;
+    width: 100%;
 }
 
 .imagediv {
