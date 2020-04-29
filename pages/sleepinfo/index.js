@@ -70,7 +70,7 @@ const SleepInfo = ({}) => {
 
 
 </div>
-<div onClick={ClickIndex} page = "/work">
+<div page = "/work">
 <CustomButton OnClick = {ClickIndex} text = "Return to Homescreen"></CustomButton>
 </div>
 </div>
