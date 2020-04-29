@@ -29,9 +29,9 @@ const SocialPage = ({}) => {
         <Header />
         <p class="question">How many hours did you spend socializing yesterday?</p>
         <div className="imgContainer"><center>
-        <img className="imagesoff" src={Social1} id="social1"></img>
+        <img className="images" src={Social1} id="social1"></img>
         <img className="images" src={Social2} id="social2"></img>
-        <img className="imagesoff" src={Social3} id="social3"></img>
+        <img className="images" src={Social3} id="social3"></img>
         </center></div>
 
 <Slider onChange={socialResult}/>
