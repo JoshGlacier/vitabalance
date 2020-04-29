@@ -9,8 +9,18 @@ import Social1 from '../../comps/card/Images/Social _01.svg';
 import Social2 from '../../comps/card/Images/Social _02.svg';
 import Social3 from '../../comps/card/Images/Social _03.svg';
 
+import {data, changeData} from "../data.js";
+console.log(data);
+
+
 function ClickIndex(){
     Router.push("/work");
+    changeData({
+        sleep:data.sleep,
+        social:parseInt(document.querySelector("#slider").value),
+        work:data.work
+    })
+    console.log("social", data);
 }
 
 const SocialPage = ({}) => { 
