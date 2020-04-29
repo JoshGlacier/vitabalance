@@ -5,6 +5,7 @@ import Header from "../../comps/header"
 import Slider from "../../comps/slider"
 import Card from "../../comps/card"
 import Router from "next/router";
+import "./home.css"
 
 /*
 
@@ -29,7 +30,7 @@ function ClickIndex(){
 const HomePage = ({}) => { 
     return <div className="custom">
         <Header />
-        <video src = {require("../../Vitabalance.mp4")} controls/> 
+        <video className= "videocss" src = {require("../../Vitabalance.mp4")} controls/> 
 <div onClick={ClickIndex}  page = "/work">
 <CustomButton OnClick = {ClickIndex} text = "Get Started"></CustomButton>
 </div>
