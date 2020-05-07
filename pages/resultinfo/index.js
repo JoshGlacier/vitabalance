@@ -29,6 +29,10 @@ const ResultInfoPage = ({}) => {
 <p className="infoheader">Information</p>
    
     <div className = "main">
+        
+
+
+
 <div className ="sleepbox">
     <div className="imagediv">
     <img className= "sleepimage" src = {Sleep1}></img>
