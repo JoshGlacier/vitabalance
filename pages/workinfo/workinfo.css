@@ -15,11 +15,11 @@
 }
 
 .GeneralInfo {
-    width: 100%;
-font-size: 1.5em;
-font-family: 'Oswald', sans-serif;
-text-align: left;
-margin-left: 20px;
+    width: 600px;
+    font-size: 1.5em;
+    font-family: 'Oswald', sans-serif;
+    text-align: left;
+    margin: 20px;
 }
 
 .workImg {
@@ -48,6 +48,9 @@ dt {
 
 .customdiv {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
 }
 .custom {
     align-items: center;
