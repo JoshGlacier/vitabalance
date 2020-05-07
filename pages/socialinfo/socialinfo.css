@@ -7,15 +7,12 @@
     font-family: 'Oswald', sans-serif;
     text-align: center;
     width: 100%;
-
-    
 }
 
 .GeneralInfo {
 font-size: 1.5em;
 font-family: 'Oswald', sans-serif;
-text-align: center;
-width: 20em;
+    text-align: center;
 }
 
 .imagesocial {
@@ -30,4 +27,3 @@ width: 20em;
     align-items: center;
         width: 100%;
     }
-
