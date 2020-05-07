@@ -43,6 +43,8 @@ dt {
 
 .customdiv {
     display: flex;
+    width: 100%;
+    margin: 10px;
 }
 .custom {
     align-items: center;
