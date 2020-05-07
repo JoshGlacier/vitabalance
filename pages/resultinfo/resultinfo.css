@@ -49,5 +49,6 @@ font-weight: bold;
 
 .InfoTextDiv {
    
-    width: 90%;
+    width: 100%;
+    margin-right: 7em;
 }
