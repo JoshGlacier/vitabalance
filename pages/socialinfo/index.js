@@ -9,7 +9,11 @@ import Social1 from '../../comps/card/Images/Social _01.svg';
 import Social2 from '../../comps/card/Images/Social _02.svg';
 import Social3 from '../../comps/card/Images/Social _03.svg';
 import './socialinfo.css'
+import BackButton from '../../comps/BackButton'
 
+function ClickIndexBack(){
+    Router.push("/resultinfo");
+}
 
 
 function ClickIndexSocial(){
@@ -19,7 +23,7 @@ function ClickIndexSocial(){
 const SocialInfo = ({}) => { 
     return <div className="custom">
  <Header />
-
+ <BackButton onClick={ClickIndexBack} text="&laquo;&nbsp;Back"></BackButton>
 
  <p class="socialHeader">How to be more social</p>
 

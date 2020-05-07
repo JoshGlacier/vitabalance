@@ -9,8 +9,11 @@ import Sleep1 from '../../comps/card/Images/Sleep_1.svg';
 import Sleep2 from '../../comps/card/Images/Sleep_2.svg';
 import Sleep3 from '../../comps/card/Images/Sleep_3.svg';
 import './sleepinfo.css'
+import BackButton from '../../comps/BackButton'
 
-
+function ClickIndexBack(){
+    Router.push("/resultinfo");
+}
 
 function ClickIndexSleep(){
     Router.push("/home");
@@ -19,7 +22,7 @@ function ClickIndexSleep(){
 const SleepInfo = ({}) => { 
     return <div className="custom">
  <Header />
-
+ <BackButton onClick={ClickIndexBack} text="&laquo;&nbsp;Back"></BackButton>
  <p class="sleepHeader">How to Sleep Better at Night</p>
 
  <span className="imagesContainer">

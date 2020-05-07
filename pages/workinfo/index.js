@@ -9,6 +9,12 @@ import Work1 from '../../comps/card/Images/Work_1.svg';
 import Work2 from '../../comps/card/Images/Work_2.svg';
 import Work3 from '../../comps/card/Images/Work_3.svg';
 import './workinfo.css'
+import BackButton from '../../comps/BackButton'
+
+function ClickIndexBack(){
+    Router.push("/resultinfo");
+}
+
 
 function ClickIndexWork(){
     Router.push("/home");
@@ -17,7 +23,7 @@ function ClickIndexWork(){
 const WorkInfo = ({}) => { 
     return <div className="custom">
  <Header />
-
+ <BackButton onClick={ClickIndexBack} text="&laquo;&nbsp;Back"></BackButton>
 
 
  <p class="workHeader">How to be more productive</p>
