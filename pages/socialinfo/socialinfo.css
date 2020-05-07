@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
 
-.infoheader {
+.socialHeader {
     font-size: 100%;
     font-size: 3em;
     font-weight: bold;
@@ -10,14 +10,35 @@
 }
 
 .GeneralInfo {
+    width: 100%;
 font-size: 1.5em;
 font-family: 'Oswald', sans-serif;
+text-align: left;
+margin-left: 20px;
+}
+
+.socialImg {
+    width: 20%;
+
+}
+
+.imagesContainer {
+    width: 100%;
+    display: inline-block;
+    flex-direction: row;
+    align-items: center;
     text-align: center;
 }
 
-.imagesocial {
-    width: 40%;
+dd {
+    font-family: 'Oswald ExtraLight', sans-serif;
+    font-size: 0.75em;
+    margin: 0;
+    padding: 0 0 0.5em 0;
+}
 
+dt {
+    padding-top: 10px;
 }
 
 .customdiv {
@@ -26,4 +47,4 @@ font-family: 'Oswald', sans-serif;
 .custom {
     align-items: center;
         width: 100%;
-    }
+}
