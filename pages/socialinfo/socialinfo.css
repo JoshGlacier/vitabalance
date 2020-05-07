@@ -10,11 +10,11 @@
 }
 
 .GeneralInfo {
-    width: 100%;
-font-size: 1.5em;
-font-family: 'Oswald', sans-serif;
-text-align: left;
-margin-left: 20px;
+    width: 600px;
+    font-size: 1.5em;
+    font-family: 'Oswald', sans-serif;
+    text-align: left;
+    margin: 20px;
 }
 
 .socialImg {
@@ -42,6 +42,7 @@ dt {
 }
 
 .customdiv {
+    align-items: center;
     display: flex;
 }
 .custom {
