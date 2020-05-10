@@ -1,3 +1,8 @@
 .videocss {
     width: 100%;
 }
+#mainapp {
+    
+    opacity: 1;
+    transition:opacity 1s;
+}

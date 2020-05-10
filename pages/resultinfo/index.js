@@ -12,19 +12,28 @@ import { Button } from 'reactstrap'
 import Router from "next/router";
 
 function ClickIndexSleep(){
+    document.querySelector("#mainapp").style.opacity = 0;
+    setTimeout(function(){
     Router.push("/sleepinfo");
+    }, 1000)
 }
 
 function ClickIndexSocial(){
+    document.querySelector("#mainapp").style.opacity = 0;
+    setTimeout(function(){
     Router.push("/socialinfo");
+    }, 1000)
 }
 
 function ClickIndexWork(){
+    document.querySelector("#mainapp").style.opacity = 0;
+    setTimeout(function(){
     Router.push("/workinfo");
+    }, 1000)
 }
 
 const ResultInfoPage = ({}) => { 
-    return <div className="">
+    return <div id = "mainapp" className="">
     <Header />
 <p className="infoheader">Information</p>
    

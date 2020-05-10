@@ -24,11 +24,14 @@ FOLDER
 
 
 function ClickIndex(){
+    document.querySelector("#mainapp").style.opacity = 0;
+    setTimeout(function(){
     Router.push("/sleep");
+    }, 1000)
 }
 
 const HomePage = ({}) => { 
-    return <div className="custom">
+    return <div id= "mainapp" className="custom">
         <Header />
         <video className= "videocss" src = {require("../../Vitabalance.mp4")} controls/> 
 <div onClick={ClickIndex}  page = "/work">

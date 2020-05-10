@@ -15,7 +15,10 @@ console.log(data);
 
 
 function ClickIndex(){
+    document.querySelector("#mainapp").style.opacity = 0;
+    setTimeout(function(){
     Router.push("/result");
+    }, 1000)
     changeData({
         sleep:data.sleep,
         social:data.social,
@@ -25,7 +28,7 @@ function ClickIndex(){
 }
 
 const WorkPage = ({}) => { 
-    return <div className="custom">
+    return <div id = "mainapp" className="custom">
         
         <Header />
         <p class="question">How many hours did you spend working yesterday?</p>

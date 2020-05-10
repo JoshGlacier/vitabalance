@@ -36,16 +36,22 @@ const ResultPage = () => {
     // } 
 
     function ClickIndexInfo(){
-        Router.push("/resultinfo");
+        document.querySelector("#mainapp").style.opacity = 0;
+    setTimeout(function(){
+    Router.push("/resultinfo");
+    }, 1000)
     }
 
     function ClickIndexHome(){
-        Router.push("/home");
+        document.querySelector("#mainapp").style.opacity = 0;
+    setTimeout(function(){
+    Router.push("/home");
+    }, 1000)
     }
     
 
 
-    return <div className="page">
+    return <div id = "mainapp" className="page">
         <Header />
         <div className="mainCard">
             <h1 className="heading">{resulttext}</h1>

@@ -24,7 +24,10 @@ console.log(data);
 */
 
 function ClickIndex(){
+    document.querySelector("#mainapp").style.opacity = 0;
+    setTimeout(function(){
     Router.push("/social");
+    }, 1000)
     changeData({
         sleep:parseInt(document.querySelector("#slider").value),
         social:data.social,
@@ -35,7 +38,7 @@ function ClickIndex(){
 
 
 const SleepPage = ({}) => { 
-    return <div className="custom">
+    return <div id = "mainapp" className="custom">
     <Header />
     <p class="question">How many hours of sleep did you get last night?</p>
     <div className="imgContainer"><center>
