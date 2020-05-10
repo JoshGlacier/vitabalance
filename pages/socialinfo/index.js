@@ -12,16 +12,22 @@ import './socialinfo.css'
 import BackButton from '../../comps/BackButton'
 
 function ClickIndexBack(){
+    document.querySelector("#mainapp").style.opacity = 0;
+    setTimeout(function(){
     Router.push("/resultinfo");
+    }, 1000)
 }
 
 
 function ClickIndexSocial(){
+    document.querySelector("#mainapp").style.opacity = 0;
+    setTimeout(function(){
     Router.push("/home");
+    }, 1000)
 }
 
 const SocialInfo = ({}) => { 
-    return <div className="custom">
+    return <div id= "mainapp" className="custom">
  <Header />
  <BackButton onClick={ClickIndexBack} text="&laquo;&nbsp;Back"></BackButton>
 
@@ -36,38 +42,38 @@ const SocialInfo = ({}) => {
 <div className="customdiv">
 
    <dl className="GeneralInfo">
-   <dt>1. Make a reasonable to-do list. Don't overwhelm yourself.</dt>
+   <dt>1. Initiate — Take The First Step Yourself.</dt>
        {/* <dd>Daily sunlight or artificial bright light can improve sleep quality and duration, especially if you have severe sleep issues or insomnia.</dd> */}
-   <dt>2. Set small goals for the tasks.</dt>
+   <dt>2. Non-Verbal Communication As Important As Verbal One.</dt>
        {/* <dd>Blue light tricks your body into thinking it’s daytime. There are several ways you can reduce blue light exposure in the evening.</dd> */}
-   <dt>3. Focus on one goal at a time.</dt>
+   <dt>3. While In A Conversation, Listen.</dt>
        {/* <dd>Caffeine can significantly worsen sleep quality, especially if you drink large amounts in the late afternoon or evening.</dd> */}
-   <dt>4. Track your time to identify patterns.</dt>
+   <dt>4. Try To Search Out Common Interests.</dt>
        {/* <dd>Long daytime naps may impair sleep quality. If you have trouble sleeping at night, stop napping or shorten your naps.</dd> */}
-   <dt>5. Find a method for delegating and following-up.</dt>
+   <dt>5. Concentrate On The Person.</dt>
        {/* <dd>Try to get into a regular sleep/wake cycle — especially on the weekends. If possible, try to wake up naturally at a similar time every day.</dd> */}
-   <dt>6. Create a proactive dashboard.</dt>
+   <dt>6. Be Comfortable With Yourself.</dt>
        {/* <dd>Avoid alcohol before bed, as it can reduce nighttime melatonin production and lead to disrupted sleep patterns.</dd> */}
-   <dt>7. Figure out your 2 peak hours.</dt>
+   <dt>7. Not Everyone Can Be Pleased.</dt>
        {/* <dd>Optimize your bedroom environment by eliminating external light and noise to get better sleep.</dd> */}
    
 </dl>
 
 
 <dl className ="GeneralInfo">
-   <dt>8. Pick one task and then do it.</dt>
+   <dt>8. Experience Is The Best Teacher.</dt>
        {/* <dd>Test different temperatures to find out which is most comfortable for you. Around 20°C (70°F) is best for most people.</dd> */}
-   <dt>9. Focus on most important tasks first</dt>
+   <dt>9. Try Going Out When You Don't Want To.</dt>
        {/* <dd>Consuming a large meal before bed can lead to poor sleep and hormone disruption. However, certain meals and snacks a few hours before bed may help.</dd> */}
-   <dt>10. Cultivate deep work</dt>
+   <dt>10. Practice Some Convo Starters.</dt>
        {/* <dd>Relaxation techniques before bed, including hot baths and meditation, may help you fall asleep.</dd> */}
-   <dt>11. Keep a distraction list to stay focused</dt>
+   <dt>11. Give Yourself Some Goals.</dt>
        {/* <dd>A warm bath, shower, or foot bath before bed can help you relax and improve your sleep quality.</dd> */}
-   <dt>12. Use the Eisenhower Matrix to identify long-term priorities</dt>
+   <dt>12. Make Sure You Recharge.</dt>
        {/* <dd>Your bed, mattress, and pillow can greatly affect sleep quality and joint or back pain. Try to buy a high quality bedding — including a mattress — every 5–8 years.</dd> */}
-   <dt>13. Break tasks into smaller pieces</dt>
+   <dt>13. Get Ready To Paraphrase.</dt>
        {/* <dd>Regular exercise during daylight hours is one of the best ways to ensure a good night’s sleep.</dd> */}
-   <dt>14. Don’t multitask</dt>
+   <dt>14. Fake It 'Til You Make It.</dt>
        {/* <dd>Reduce fluid intake in the late evening and try to use the bathroom right before bed.</dd> */}
 </dl>
 

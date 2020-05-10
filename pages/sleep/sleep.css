@@ -27,3 +27,8 @@
 #sleep3 {
     display: none;
 }
+#mainapp {
+    
+    opacity: 1;
+    transition:opacity 1s;
+}

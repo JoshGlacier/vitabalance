@@ -33,3 +33,8 @@
     text-align: center;
     font-size: 24px;
 }
+#mainapp {
+    
+    opacity: 1;
+    transition:opacity 1s;
+}

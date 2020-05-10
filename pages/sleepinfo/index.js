@@ -12,15 +12,21 @@ import './sleepinfo.css'
 import BackButton from '../../comps/BackButton'
 
 function ClickIndexBack(){
+    document.querySelector("#mainapp").style.opacity = 0;
+    setTimeout(function(){
     Router.push("/resultinfo");
+    }, 1000)
 }
 
 function ClickIndexSleep(){
+    document.querySelector("#mainapp").style.opacity = 0;
+    setTimeout(function(){
     Router.push("/home");
+    }, 1000)
 }
 
 const SleepInfo = ({}) => { 
-    return <div className="custom">
+    return <div id = "mainapp" className="custom">
  <Header />
  <BackButton onClick={ClickIndexBack} text="&laquo;&nbsp;Back"></BackButton>
  <p class="sleepHeader">How to Sleep Better at Night</p>

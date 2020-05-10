@@ -12,16 +12,22 @@ import './workinfo.css'
 import BackButton from '../../comps/BackButton'
 
 function ClickIndexBack(){
+    document.querySelector("#mainapp").style.opacity = 0;
+    setTimeout(function(){
     Router.push("/resultinfo");
+    }, 1000)
 }
 
 
 function ClickIndexWork(){
+    document.querySelector("#mainapp").style.opacity = 0;
+    setTimeout(function(){
     Router.push("/home");
+    }, 1000)
 }
 
 const WorkInfo = ({}) => { 
-    return <div className="custom">
+    return <div id = "mainapp" className="custom">
  <Header />
  <BackButton onClick={ClickIndexBack} text="&laquo;&nbsp;Back"></BackButton>
 
