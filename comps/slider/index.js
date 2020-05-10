@@ -2,8 +2,8 @@ import React from 'react';
 import './slider.css';
 
 const Slider = ({onChange}) => <div className="slider">
-         <center><p className="bubble"><span id="result">0</span><br/><span id="units">hrs.</span></p></center>
-           <input type="range" id="slider" name="slider" min="0" max="10" step="1" onChange={()=>{onChange(); showValue();}}/>
+         <center><p className="bubble"><span id="result">5</span><br/><span id="units">hrs.</span></p>
+           <input type="range" id="slider" name="slider" min="0" max="10" step="1" defaultValue="5" onChange={()=>{onChange(); showValue();}}/></center>
             {/* <span>&ndash;</span><input type="range" id="slider" name="slider" min="0" max="10" step="1" onChange={()=>{onChange(); showValue();}}/><span>+</span> */}
 </div>
 
