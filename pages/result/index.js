@@ -6,7 +6,7 @@ import Slider from "../../comps/slider"
 import Card from "../../comps/card"
 import './result.css'
 import Router from "next/router";
-import Unbalanced from '../../comps/card/Images/Unbalanced.png';
+import Unbalanced from '../../comps/card/Images/unbalanced.png';
 
 import {data, changeData} from "../../comps/data.js";
 console.log(data);
