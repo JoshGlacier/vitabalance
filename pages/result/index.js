@@ -6,6 +6,7 @@ import Slider from "../../comps/slider"
 import Card from "../../comps/card"
 import './result.css'
 import Router from "next/router";
+import Unbalanced from '../../comps/card/Images/Unbalanced.png';
 
 import {data, changeData} from "../../comps/data.js";
 console.log(data);
@@ -56,7 +57,8 @@ const ResultPage = () => {
         <div className="mainCard">
             <h1 className="heading">{resulttext}</h1>
             <h1 className="description">{descriptiontext}</h1>
-            <br/><br/> <br/><br/>
+        
+            <br/><br/>  <img className= "pic" src={Unbalanced} ></img> <br/><br/>
             <div className="info">
                 <p>Click the INFO button for information to help keep and balance your life!</p>
             <CustomButton text = "Info" className="infoButton" onClick = {ClickIndexInfo}/>
